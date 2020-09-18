@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gronda-task/precache-manifest.c859421348122f4db0c752617135526b.js"
+  "/gronda-task/precache-manifest.f5ad84c353c7cd2882d85612c47228cb.js"
 );
 
 self.addEventListener('message', (event) => {
