@@ -5,7 +5,7 @@ import StatCard from "../StatCard/StatCard";
 import colors from "../../constants/colors";
 import asyncData from "../../data/data";
 
-const StatBoard = () => {
+const StatBoard = (props) => {
 	const [statData, setStatData] = useState({});
 	const [isLoading, setIsLoading] = useState(true);
 
@@ -32,7 +32,7 @@ const StatBoard = () => {
 	return isLoading ? (
 		<h3>Loading...</h3>
 	) : (
-		<div className="stat-board">
+		<div id="stat-board" className="stat-board">
 			<StatCard
 				statTitle="Active sourcing"
 				currentPeriod={active_source.current_period}

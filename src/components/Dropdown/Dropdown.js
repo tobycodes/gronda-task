@@ -29,7 +29,7 @@ const Dropdown = ({ label, options, onChange }) => {
 				onClick={toggleDropdown}
 			/>
 
-			<ul className={`dropdown-list${isOpen ? " show" : ""}`}>
+			<ul id="dropdown-list" className={`dropdown-list${isOpen ? " show" : ""}`}>
 				{options.map((option) => (
 					<li
 						className="dropdown-item"

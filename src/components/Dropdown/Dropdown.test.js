@@ -33,14 +33,14 @@ describe("<Dropdown />", () => {
 
 		//Simulate first click on button to open the dropdown.
 		wrapper.find('input[type="button"]').simulate("click");
-		expect(wrapper.find(".dropdown-list").props()).toHaveProperty(
+		expect(wrapper.find("#dropdown-list").props()).toHaveProperty(
 			"className",
 			"dropdown-list show"
 		);
 
 		//Simulate second click to close the dropdown.
 		wrapper.find('input[type="button"]').simulate("click");
-		expect(wrapper.find(".dropdown-list").props()).toHaveProperty(
+		expect(wrapper.find("#dropdown-list").props()).toHaveProperty(
 			"className",
 			"dropdown-list"
 		);
