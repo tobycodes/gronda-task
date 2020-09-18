@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gronda-task/static/css/main.ec5657e2.chunk.css",
+    "main.js": "/gronda-task/static/js/main.ade01316.chunk.js",
+    "main.js.map": "/gronda-task/static/js/main.ade01316.chunk.js.map",
+    "runtime-main.js": "/gronda-task/static/js/runtime-main.c797b19f.js",
+    "runtime-main.js.map": "/gronda-task/static/js/runtime-main.c797b19f.js.map",
+    "static/js/2.b93b45ef.chunk.js": "/gronda-task/static/js/2.b93b45ef.chunk.js",
+    "static/js/2.b93b45ef.chunk.js.map": "/gronda-task/static/js/2.b93b45ef.chunk.js.map",
+    "index.html": "/gronda-task/index.html",
+    "precache-manifest.c859421348122f4db0c752617135526b.js": "/gronda-task/precache-manifest.c859421348122f4db0c752617135526b.js",
+    "service-worker.js": "/gronda-task/service-worker.js",
+    "static/css/main.ec5657e2.chunk.css.map": "/gronda-task/static/css/main.ec5657e2.chunk.css.map",
+    "static/js/2.b93b45ef.chunk.js.LICENSE.txt": "/gronda-task/static/js/2.b93b45ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c797b19f.js",
+    "static/js/2.b93b45ef.chunk.js",
+    "static/css/main.ec5657e2.chunk.css",
+    "static/js/main.ade01316.chunk.js"
+  ]
+}
