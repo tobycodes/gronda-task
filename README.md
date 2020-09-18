@@ -25,6 +25,9 @@ The project can be previewed at https://tobycodes.github.io/gronda-task.
  <p>Navigate to the project folder by running</p> 
  <pre><code>cd gronda-task</code></pre>
  
+ <p>Install all dependencies</p> 
+ <pre><code>npm install</code></pre>
+ 
  <p>Start the project in development server</p>
  <pre><code>npm start</code></pre>
  <p>OR</p>
