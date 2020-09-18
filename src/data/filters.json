@@ -1,0 +1,5 @@
+// This will be the request payload sent on the api call
+{
+  "time_unit": "MONTH", // or "WEEK", "QUARTER", "YEAR"
+  "time_unit_count": 1 // 1 time_unit back
+}

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StatCard /> expects to render a StatCard component 1`] = `ShallowWrapper {}`;
