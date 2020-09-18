@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useCallback } from "react";
 
 import Dropdown from "../Dropdown/Dropdown";
 
 import sortOptions from "../../constants/sort-options";
 
-const Sort = (props) => {
-	const handleSort = (sortOption) => {
-		//Handle Sort here
-	};
+const Sort = ({ sortTableData }) => {
+	const handleSort = useCallback(
+		(sortOption) => {
+			const action = {
+				type: sortOption.sortType,
+			};
+
+			sortTableData(action);
+		},
+		[sortTableData]
+	);
 
 	return (
 		<div className="sort">

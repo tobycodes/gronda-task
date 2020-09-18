@@ -116,6 +116,12 @@ body {
 	margin: 2rem;
 }
 
+.table-wrapper {
+	margin-right: auto;
+	width: 96%;
+	overflow-x: scroll;
+}
+
 .table-row {
 	padding: 5px;
 	border-bottom: 2px solid #ccc;
@@ -125,6 +131,15 @@ body {
 	text-align: center;
 	padding: 1rem;
 	color: #6e6e6e;
+	white-space: nowrap;
+}
+
+.table-col.fixed {
+	position: sticky;
+	max-width: auto;
+	left: 0;
+	top: auto;
+	background-color: white;
 }
 
 .sort-box {
@@ -144,4 +159,29 @@ body {
 
 .critical-checkbox {
 	margin-right: 1rem;
+}
+
+@media only screen and (max-width: 68.125em) {
+	.stat-page {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 60em) {
+	html {
+		font-size: 60%;
+	}
+
+	.stat-page {
+		margin-left: 3rem;
+	}
+}
+
+@media only screen and (max-width: 37.5em) {
+	html {
+		font-size: 56.25%;
+	}
+	.stat-page {
+		margin-left: 0;
+	}
 }
