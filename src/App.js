@@ -1,9 +1,15 @@
 import React from "react";
 import "./App.css";
-import StatPage from "./components/StatPage/StatPage";
+import StatBoard from "./components/StatBoard/StatBoard";
+import Table from "./components/Table/Table";
 
 function App() {
-	return <StatPage />;
+	return (
+		<div className="stat-page">
+			<StatBoard />
+			<Table />
+		</div>
+	);
 }
 
 export default App;

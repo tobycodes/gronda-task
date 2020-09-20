@@ -93,7 +93,7 @@ body {
 
 	position: absolute;
 	top: 0;
-	right: -15rem;
+	right: -14rem;
 }
 
 .dropdown-list.show {
@@ -101,7 +101,7 @@ body {
 }
 
 .dropdown-item {
-	width: 15rem;
+	width: 14rem;
 	cursor: pointer;
 	margin-bottom: 3px;
 	padding: 3px;
@@ -112,14 +112,14 @@ body {
 }
 
 .table {
+	display: table;
 	border-collapse: collapse;
-	margin: 2rem;
+	margin: 2rem 0;
+	width: 100%;
 }
 
 .table-wrapper {
-	margin-right: auto;
-	width: 96%;
-	overflow-x: scroll;
+	margin: auto;
 }
 
 .table-row {
@@ -161,9 +161,25 @@ body {
 	margin-right: 1rem;
 }
 
+@media only screen and (max-width: 89em) {
+	.table-wrapper {
+		width: 96%;
+		overflow-x: scroll;
+		margin: 0;
+		margin-right: auto;
+	}
+	.table-col.fixed {
+		box-shadow: 8px 0 10px -6px #ccc;
+	}
+}
+
 @media only screen and (max-width: 68.125em) {
 	.stat-page {
 		width: 80%;
+	}
+	.table-wrapper {
+		width: 96%;
+		overflow-x: scroll;
 	}
 }
 
@@ -173,7 +189,16 @@ body {
 	}
 
 	.stat-page {
-		margin-left: 3rem;
+		margin-left: 1rem;
+		padding: 4rem 2rem;
+	}
+
+	.dropdown-item {
+		width: 12rem;
+	}
+
+	.dropdown-list {
+		right: -12rem;
 	}
 }
 
@@ -182,6 +207,7 @@ body {
 		font-size: 56.25%;
 	}
 	.stat-page {
+		width: 85%;
 		margin-left: 0;
 	}
 }

@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useReducer } from "react";
+import { getCompanyList } from "../../helpers/helper-functions";
+import { sortReducer } from "../../helpers/reducers";
 import Sort from "../Sort/Sort";
 
 const contracts = ["Weekly", "Monthly", "Quarterly", "Yearly", "Seasonal"];
 
-const Table = ({ companyList, sortCompanyList }) => {
+const Table = () => {
+	const [companyListData, updateCompanyListData] = useReducer(
+		sortReducer,
+		getCompanyList()
+	);
+
 	return (
 		<>
 			<div className="sort-box">
@@ -19,7 +26,7 @@ const Table = ({ companyList, sortCompanyList }) => {
 					</label>
 				</div>
 
-				<Sort sortTableData={sortCompanyList} />
+				<Sort sortTableData={updateCompanyListData} />
 			</div>
 
 			<div className="table-wrapper">
@@ -39,7 +46,7 @@ const Table = ({ companyList, sortCompanyList }) => {
 
 					{/*Usually from here, we'd have fetched all of our company data as a list, and then render the rest of the table with JavaScript map function */}
 					<tbody>
-						{companyList.map((company) => (
+						{companyListData.map((company) => (
 							<tr key={company.id} className="table-row">
 								<td className="table-col fixed">{company.id}</td>
 								<td className="table-col fixed">{company.name}</td>
