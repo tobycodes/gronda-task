@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/gronda-task/static/css/main.20b4ea12.chunk.css",
-    "main.js": "/gronda-task/static/js/main.cf9e9140.chunk.js",
-    "main.js.map": "/gronda-task/static/js/main.cf9e9140.chunk.js.map",
+    "main.css": "/gronda-task/static/css/main.c1662436.chunk.css",
+    "main.js": "/gronda-task/static/js/main.f471bf0f.chunk.js",
+    "main.js.map": "/gronda-task/static/js/main.f471bf0f.chunk.js.map",
     "runtime-main.js": "/gronda-task/static/js/runtime-main.c797b19f.js",
     "runtime-main.js.map": "/gronda-task/static/js/runtime-main.c797b19f.js.map",
     "static/js/2.9f52e4d3.chunk.js": "/gronda-task/static/js/2.9f52e4d3.chunk.js",
     "static/js/2.9f52e4d3.chunk.js.map": "/gronda-task/static/js/2.9f52e4d3.chunk.js.map",
     "index.html": "/gronda-task/index.html",
-    "precache-manifest.f5ad84c353c7cd2882d85612c47228cb.js": "/gronda-task/precache-manifest.f5ad84c353c7cd2882d85612c47228cb.js",
+    "precache-manifest.c4536d9156d8cdc6dcc0e13ed5d4e942.js": "/gronda-task/precache-manifest.c4536d9156d8cdc6dcc0e13ed5d4e942.js",
     "service-worker.js": "/gronda-task/service-worker.js",
-    "static/css/main.20b4ea12.chunk.css.map": "/gronda-task/static/css/main.20b4ea12.chunk.css.map",
+    "static/css/main.c1662436.chunk.css.map": "/gronda-task/static/css/main.c1662436.chunk.css.map",
     "static/js/2.9f52e4d3.chunk.js.LICENSE.txt": "/gronda-task/static/js/2.9f52e4d3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c797b19f.js",
     "static/js/2.9f52e4d3.chunk.js",
-    "static/css/main.20b4ea12.chunk.css",
-    "static/js/main.cf9e9140.chunk.js"
+    "static/css/main.c1662436.chunk.css",
+    "static/js/main.f471bf0f.chunk.js"
   ]
 }
