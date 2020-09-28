@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "47a0e39422b78cc9106179930a093487",
+    "revision": "ce3a3e450f5bb476523157fa8f16a78a",
     "url": "/gronda-task/index.html"
   },
   {
-    "revision": "5fec70aff8c27dad4114",
-    "url": "/gronda-task/static/css/main.c1662436.chunk.css"
+    "revision": "f2c91e9dd648562636dd",
+    "url": "/gronda-task/static/css/main.abe3b806.chunk.css"
   },
   {
     "revision": "5b0842ba7782970a86a2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gronda-task/static/js/2.9f52e4d3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5fec70aff8c27dad4114",
-    "url": "/gronda-task/static/js/main.f471bf0f.chunk.js"
+    "revision": "f2c91e9dd648562636dd",
+    "url": "/gronda-task/static/js/main.aa3ba0de.chunk.js"
   },
   {
     "revision": "18adff186dca1de1d0a0",
