@@ -2,41 +2,41 @@ export default [
 	{
 		id: 1,
 		title: "Id",
-		sortType: "ID",
+		sortType: "SORT_BY_ID",
 	},
 	{
 		id: 2,
 		title: "Company Name",
-		sortType: "COMPANY_NAME",
+		sortType: "SORT_BY_COMPANY_NAME",
 	},
 	{
 		id: 3,
 		title: "Segment",
-		sortType: "SEGMENT",
+		sortType: "SORT_BY_SEGMENT",
 	},
 	{
 		id: 4,
 		title: "Contract",
-		sortType: "CONTRACT",
+		sortType: "SORT_BY_CONTRACT",
 	},
 	{
 		id: 5,
 		title: "Best NPS avg",
-		sortType: "BEST_NPS_AVG",
+		sortType: "SORT_BY_BEST_NPS_AVG",
 	},
 	{
 		id: 6,
 		title: "Worst NPS avg",
-		sortType: "WORST_NPS_AVG",
+		sortType: "SORT_BY_WORST_NPS_AVG",
 	},
 	{
 		id: 7,
 		title: "NPS Last",
-		sortType: "NPS_LAST",
+		sortType: "SORT_BY_NPS_LAST",
 	},
 	{
 		id: 8,
 		title: "NPS First",
-		sortType: "NPS_FIRST",
+		sortType: "SORT_BY_NPS_FIRST",
 	},
 ];

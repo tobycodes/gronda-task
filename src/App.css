@@ -26,8 +26,7 @@ body {
 .stat-board {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	padding: 1rem;
+	padding: 1rem 0;
 }
 
 .filter {
@@ -35,13 +34,12 @@ body {
 }
 
 .card {
-	min-width: 20rem;
 	height: 15rem;
 	padding: 3rem 2rem;
 	border-radius: 3px;
 	margin: 1.5rem;
 
-	flex: 1 1 27%;
+	flex: 1 1 20rem;
 
 	font-size: 1.7rem;
 	color: white;
@@ -51,7 +49,7 @@ body {
 	justify-content: space-between;
 }
 
-.card__value {
+.card-value {
 	font-weight: bold;
 	font-size: 2.5rem;
 }
@@ -183,7 +181,7 @@ body {
 	}
 }
 
-@media only screen and (max-width: 60em) {
+@media only screen and (max-width: 63em) {
 	html {
 		font-size: 60%;
 	}
@@ -202,7 +200,7 @@ body {
 	}
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 38.5em) {
 	html {
 		font-size: 56.25%;
 	}

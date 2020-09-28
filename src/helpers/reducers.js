@@ -2,13 +2,13 @@ import statData from "../data/stat-data";
 
 export const filterReducer = (state, action) => {
 	switch (action.type) {
-		case "MONTH":
+		case "FILTER_BY_MONTH":
 			//The value of action.payload is either 1 or 0.
 			return action.payload ? statData.lastMonth : statData.thisMonth;
-		case "QUARTER":
+		case "FILTER_BY_QUARTER":
 			return action.payload ? statData.lastQuarter : statData.thisQuarter;
 
-		case "YEAR":
+		case "FILTER_BY_YEAR":
 			return action.payload ? statData.lastYear : statData.thisYear;
 
 		default:
@@ -18,21 +18,21 @@ export const filterReducer = (state, action) => {
 
 export const sortReducer = (state, action) => {
 	switch (action.type) {
-		case "ID":
+		case "SORT_BY_ID":
 			return [...state].sort((a, b) => a.id - b.id);
-		case "COMPANY_NAME":
+		case "SORT_BY_COMPANY_NAME":
 			return [...state].sort((a, b) => a.name.localeCompare(b.name));
-		case "SEGMENT":
+		case "SORT_BY_SEGMENT":
 			return [...state].sort((a, b) => a.segment.localeCompare(b.segment));
-		case "CONTRACT":
+		case "SORT_BY_CONTRACT":
 			return [...state].sort((a, b) => a.contract - b.contract);
-		case "BEST_NPS_AVG":
+		case "SORT_BY_BEST_NPS_AVG":
 			return [...state].sort((a, b) => b.npsAvg - a.npsAvg);
-		case "WORST_NPS_AVG":
+		case "SORT_BY_WORST_NPS_AVG":
 			return [...state].sort((a, b) => a.npsAvg - b.npsAvg);
-		case "NPS_LAST":
+		case "SORT_BY_NPS_LAST":
 			return [...state].sort((a, b) => a.npsLast - b.npsLast);
-		case "NPS_FIRST":
+		case "SORT_BY_NPS_FIRST":
 			return [...state].sort((a, b) => a.npsFirst - b.npsFirst);
 		default:
 			return state;

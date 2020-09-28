@@ -1,4 +1,4 @@
-import React, { useReducer } from "react";
+import React, { useReducer, useState } from "react";
 import { getCompanyList } from "../../helpers/helper-functions";
 import { sortReducer } from "../../helpers/reducers";
 import Sort from "../Sort/Sort";
@@ -11,6 +11,8 @@ const Table = () => {
 		getCompanyList()
 	);
 
+	const [showCritical, setShowCritical] = useState(false);
+
 	return (
 		<>
 			<div className="sort-box">
@@ -20,13 +22,14 @@ const Table = () => {
 						id="critical"
 						type="checkbox"
 						className="critical-checkbox"
+						onChange={() => setShowCritical((showCritical) => !showCritical)}
 					/>
 					<label htmlFor="critical" className="critical-label">
 						Show critical
 					</label>
 				</div>
 
-				<Sort sortTableData={updateCompanyListData} />
+				<Sort sortTableData={updateCompanyListData} showCritical={showCritical} />
 			</div>
 
 			<div className="table-wrapper">
